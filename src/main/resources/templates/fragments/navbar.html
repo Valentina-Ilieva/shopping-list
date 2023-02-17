@@ -15,5 +15,12 @@
         <a class="nav-link text-white active h5" th:href="@{/auth/register}">Register</a>
       </li>
     </ul>
+
+    <ul th:unless="${@loggedUser.isEmpty()}">
+      class="navbar-nav row">
+      <li class="nav-item col-md-4">
+        <a class="nav-link text-white active h5" th:href="@{/home}">Home<</a>
+      </li>
+    </ul>
   </div>
 </nav>

@@ -1,9 +1,10 @@
-package com.example.coffeeshop.domein.models;
+package shoppinglist.domein.model;
 
-import com.example.coffeeshop.validations.validateUser.ValidateLoginForm;
+
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import shoppinglist.validations.validateUser.ValidateLoginForm;
 
 @NoArgsConstructor
 @Setter
